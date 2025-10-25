@@ -38,3 +38,25 @@
 .blg:hover{
    transform: scale(1.07);
 }
+@media (max-width:700px) {
+   .blg{
+      height: 750px;
+      width: 650px;
+      margin-top: 15vh;
+   }
+   .blg img{
+      width: 650px;
+      height: 400px;
+   }
+   .blg span{
+      margin-top: 5vh;
+      font-size: 35px;
+      width: 300px;
+   }
+   .blg-tops h5{
+      font-size: 50px;
+   }
+   .blg-tops p{
+      font-size: 35px;
+   }
+}

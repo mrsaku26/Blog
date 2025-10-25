@@ -33,3 +33,21 @@ button{
    grid-template-columns: repeat(4,1fr);
    gap: 40px;
 }
+@media (max-width:700px) {
+   .blog{
+      text-align: center;
+      width: 218vh;
+   }
+   .item{
+      gap: 90px;
+   }
+   button{
+      font-size: 40px;
+   }
+   .bloglist{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-column-gap: 200vh;
+      gap: 95px;
+   }
+}
