@@ -70,11 +70,7 @@
       width: 28%;
    }
 }
-@media (max-width:500px) {
-   .logo {
-      width: 45%;
-   }
-}
+
 @media (max-width:600px) {
    .logo {
       width: 15%;
@@ -82,5 +78,10 @@
       align-items: center;
       justify-content: space-around;
       padding: 15px 30px;
+   }
+}
+@media (max-width:500px) {
+   .logo {
+      width: 45%;
    }
 }
