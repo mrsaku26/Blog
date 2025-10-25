@@ -42,18 +42,17 @@
 }
 @media (max-width:1200px) {
    .logo {
-      width: 17%;
       padding: 15px 60px;
    }
 }
 @media (max-width:1000px) {
    .logo {
-      width: 25%;
+      
    }
 }
 @media (max-width:800px) {
    .logo {
-      width: 30%;
+     
    }
    .navbar{
       padding: 15px 50px;
@@ -63,20 +62,19 @@
       padding: 6px 14px;
    }
    .login img{
-      width: 25%;
+     
    }
 }
 @media (max-width:700px) {
    .logo {
-      width: 40%;
+      
    }
 }
 @media (max-width:600px) {
    .logo {
-      width: 50%;
       display: flex;
       align-items: center;
       justify-content: space-around;
-      padding: 15px 30px;
+     
    }
 }
