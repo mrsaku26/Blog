@@ -51,10 +51,17 @@
    .logo {
       width: 30%;
    }
+   .login{
+      font-size: 11px;
+      padding: 6px 14px;
+   }
+   .login img{
+      width: 25%;
+   }
 }
 @media (max-width:700px) {
    .logo {
-      width: 23%;
+      width: 50%;
    }
 }
 @media (max-width:600px) {
