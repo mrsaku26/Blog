@@ -34,7 +34,7 @@
 }
 @media (max-width:1400px) {
    .logo {
-      width: 18%;
+      width: 15%;
    }
    .navbar{
       padding: 15px 60px;
@@ -42,17 +42,17 @@
 }
 @media (max-width:1200px) {
    .logo {
-      padding: 15px 60px;
+      width: 15%;
    }
 }
 @media (max-width:1000px) {
    .logo {
-      
+      width: 15%;
    }
 }
 @media (max-width:800px) {
    .logo {
-     
+      width: 15%;
    }
    .navbar{
       padding: 15px 50px;
@@ -62,19 +62,20 @@
       padding: 6px 14px;
    }
    .login img{
-     
+      width: 25%;
    }
 }
 @media (max-width:700px) {
    .logo {
-      
+      width: 15%;
    }
 }
 @media (max-width:600px) {
    .logo {
+      width: 15%;
       display: flex;
       align-items: center;
       justify-content: space-around;
-     
+      padding: 15px 30px;
    }
 }
