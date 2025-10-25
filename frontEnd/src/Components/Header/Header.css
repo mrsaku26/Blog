@@ -6,6 +6,7 @@
    position: relative;
    top: -89vh;
    opacity: 0.3;
+   pointer-events: none;
 }
 .header-mid{
    display: flex;
@@ -14,13 +15,13 @@
    gap: 10px;
    color: rgb(145, 145, 164);
    font-weight: 500;
-   height: 50px;
-   width: 300px;
+   height: 40px;
+   width: 250px;
    background-color:rgb(186, 191, 217);
    border: 1px solid black;
    border-radius: 40px;
    color: rgb(70, 70, 213);
-   font-size: 15px;
+   font-size: 13px;
    font-weight: 600;
 }
 .header-top{
@@ -30,7 +31,7 @@
    justify-content: center;
 }
 .header-top h1{
-   font-size: 50px;
+   font-size: 40px;
 }
 .header-top span{
    color: rgb(50, 50, 214);
@@ -38,6 +39,7 @@
 .desc{
   margin-top: -10px;
   max-width: 800px;
+  font-size: 13px;
 }
 form{
    margin-top: 18px;
@@ -45,17 +47,17 @@ form{
 }
 form button{
    padding: 8px 20px;
-   font-size: 16px;
+   font-size: 14px;
    background-color:rgb(50, 50, 214);
    color: white;
 }
 form input{
    width: 450px;
-   height: 40px;
+   height: 35px;
    padding-left: 12px;
    outline: none;
    border: none;
    background-color: white;
    border: 0.1px solid rgb(195, 188, 188);
-   font-size: 16px;
+   font-size: 14px;
 }
