@@ -67,7 +67,7 @@
 }
 @media (max-width:700px) {
    .logo {
-      width: 9vh
+      width: 30vh;
    }
    .navbar{
       display: flex;
