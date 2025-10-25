@@ -67,13 +67,20 @@
 }
 @media (max-width:700px) {
    .logo {
-      width: 21%;
+      width: 15%;
    }
    .navbar{
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 150vh;
+      width: 230vh;
+   }
+   .login{
+      font-size: 13px;
+      padding: 8px 20px;
+   }
+   .login img{
+      width: 50%;
    }
 }
 
