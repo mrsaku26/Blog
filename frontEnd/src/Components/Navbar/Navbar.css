@@ -76,12 +76,13 @@
       width: 210vh;
    }
    .login img{
-      width: 15vh;
+      width: 8vh;
    }
    .login{
       padding: 3vh 7vh;
       font-size: 8vh;
-      border-radius: 3vh ;
+      border-radius: 5vh;
+      gap: 2vh;
    }
 }
 
