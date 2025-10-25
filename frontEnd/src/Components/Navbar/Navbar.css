@@ -33,38 +33,32 @@
    width: 50%;
 }
 @media (max-width:1400px) {
-   .navbar{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-   }
-   .logo{
-      width: 15%;
-   }
-}
-@media (max-width:1200px) {
-   .logo{
-      width: 16%;
-   }
-}
-@media (max-width:1000px) {
-   .logo{
-      width: 17%;
-   }
-}
-@media (max-width:800px) {
-   .logo{
+   .logo {
       width: 18%;
    }
 }
+@media (max-width:1200px) {
+   .logo {
+      width: 17%;
+   }
+}
+@media (max-width:1000px) {
+   .logo {
+      width: 16%;
+   }
+}
+@media (max-width:800px) {
+   .logo {
+      width: 15%;
+   }
+}
 @media (max-width:700px) {
-   .logo{
+   .logo {
       width: 11%;
-      
    }
 }
 @media (max-width:600px) {
-   .logo{
+   .logo {
       width: 10%;
    }
 }
