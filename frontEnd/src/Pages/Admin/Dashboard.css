@@ -46,3 +46,18 @@
    font-weight: 550;
    box-shadow: 0 0 6px rgba(0,0,0,0.1);
 }
+@media (max-width:700px) {
+   .dashboard{
+      margin-top: -160vh;
+      margin-left: 1px;
+      margin-left: 28vh;
+   }
+   .table-data{
+    display: grid;
+     grid-template-columns: 0.1fr 1fr 0.5fr 0.5fr 0.5fr 0.3fr;
+      width: 70vh;
+   }
+   .table-data button{
+      font-size: 14px;
+   }
+}

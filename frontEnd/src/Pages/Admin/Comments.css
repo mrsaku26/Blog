@@ -40,3 +40,10 @@
    box-shadow: 0 0 6px rgba(0,0,0,0.2);
    padding: 15px 30px;
 }
+@media (max-width:700px) {
+   .admin-cmt{
+      margin-top: -160vh;
+      width: 69vh;
+   }
+   
+}

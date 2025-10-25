@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-mid">
         <div className="footer-logo">
          <img src={assets.logo} alt="" />
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dolorem et similique sequi deleniti est magnam alias deserunt temporibus dicta asperiores at doloremque illo, dolorum impedit? Odio inventore iure minus!</p>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dolorem et similique sequi deleniti est magnam alias </p>
         </div>
         <div className="footer-low">
          {footer_data.map((section,index)=> (

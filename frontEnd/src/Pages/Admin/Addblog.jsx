@@ -97,7 +97,7 @@ const Addblog = () => {
         <div  className='editoref'> 
           <div ref={editorRef}>
           </div>
-           <button disabled={loading} className='userefenc' onClick={generateConetnt}>{loading?"Loading...":"Generate with AI"}</button>
+           <button  disabled={loading} className='userefenc' onClick={generateConetnt}>{loading?"Loading...":"Generate with AI"}</button>
         </div>
        <div className='divs'>
         <p>Blog category</p>

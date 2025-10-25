@@ -43,3 +43,35 @@
 .published-box{
    width: 20px;
 }
+@media (max-width:700px) {
+   .addBlog{
+      width: 60vh;
+      height: 140vh;
+      margin-top: -160vh;
+      font-size: 18px;
+   }
+   .addBlog form input{
+      height: 40px;
+      width: 300px;
+      font-size: 17px;
+      padding-right: -400px;
+   }
+   .addBlog button{
+      font-size: 15px;
+      height: 40px;
+   }
+   .userefenc{
+      min-width: 25vh;
+   }
+   .divs{
+      font-size: 15px;
+      width: 20vh;
+   }
+   option{
+      font-size: 15px;
+   }
+   .published p{
+      min-width: 14vh;
+   }
+   
+}

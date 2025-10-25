@@ -126,3 +126,68 @@
    display: flex;
    cursor: pointer;
 }
+@media (max-width:700px) {
+   .blogs-inner{
+      width: 220vh;
+   }
+   .date{
+      font-size: 35px;
+   }
+   .blogs-title{
+      font-size: 45px;
+   }
+   .subtitle{
+      font-size: 35px;
+   }
+   .author{
+      font-size: 45px;
+      padding: 20px 50px;
+      border-radius: 150px;
+   }
+   .blogs-image{
+      width: 150vh;
+      height: 150vh;
+   }
+   .rich-text{
+      font-size: 35px;
+   }
+   .comments{
+      font-size: 40px;
+   }
+   .add-comment{
+      font-size: 35px;
+   }
+   .forms input{
+      font-size: 40px;
+      height: 130px;
+      width: 600px;
+   }
+   .forms textarea{
+      font-size: 40px;
+      height: 250px;
+   }
+   .forms button{
+      width: 200px;
+   }
+   .icons img{
+      width: 20vh;
+   }
+   .comments-data{
+      width: 100vh;
+   }
+   .comments-image{
+      width: 12vh;
+   }
+   .comments-logo{
+      gap: 10vh;
+   }
+   .comments-logo p{
+      font-size: 40px;
+   }
+   .comments-content{
+      font-size: 38px;
+   }
+   .comments-date p{
+      font-size: 35px;
+   }
+}

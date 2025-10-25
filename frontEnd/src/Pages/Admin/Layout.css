@@ -17,3 +17,12 @@
 .sidebar img{
    margin-left: 2vh;
 }
+@media (max-width:700px) {
+
+   .layout{
+      width: 102vh;
+   }
+   .layout-inner button{
+      font-size: 18px;
+   }
+}
