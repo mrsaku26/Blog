@@ -1,0 +1,28 @@
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px 150px;
+}
+.logo{
+   width: 10%;
+   cursor: pointer;
+}
+.login{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 8px;
+   border: none;
+   outline: none;
+   color: white;
+   background: blue;
+   border-radius: 20px;
+   padding: 8px 20px;
+   font-size: 13px;
+   font-weight: 520;
+   cursor: pointer;
+}
+.login img{
+   width: 50%;
+}
