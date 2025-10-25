@@ -67,7 +67,7 @@
 }
 @media (max-width:700px) {
    .logo {
-      width: 9%;
+      width: 9vh
    }
    .navbar{
       display: flex;
@@ -81,7 +81,7 @@
    .login{
       padding: 3vh 7vh;
       font-size: 6vh;
-      border-radius: 5vh;
+      border-radius: 7vh;
       gap: 2vh;
    }
 }
