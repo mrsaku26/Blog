@@ -69,6 +69,12 @@
    .logo {
       width: 28%;
    }
+   .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+   }
 }
 
 @media (max-width:600px) {
