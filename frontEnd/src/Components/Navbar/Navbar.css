@@ -76,9 +76,10 @@
       width: 210vh;
    }
    .login img{
-      width: 300%;
+      width: 50vh;
    }
    .login{
+      padding: 10vh 20vh;
       font-size: 8vh;
    }
 }
