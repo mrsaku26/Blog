@@ -44,17 +44,17 @@
 }
 @media (max-width:1200px) {
    .logo{
-      width: 14%;
+      width: 16%;
    }
 }
 @media (max-width:1000px) {
    .logo{
-      width: 13%;
+      width: 17%;
    }
 }
 @media (max-width:800px) {
    .logo{
-      width: 12%;
+      width: 18%;
    }
 }
 @media (max-width:700px) {
