@@ -1,0 +1,53 @@
+.blog{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: -105vh;
+}
+.item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 35px;
+   cursor: pointer;
+}
+button{
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background: transparent;
+   font-weight: 600;
+   color: black;
+   font-size: 13px;
+}
+.actives{
+   background-color: blue;
+   color: white;
+   border-radius: 20px;
+   padding: 4px 12px;
+}
+.bloglist{
+   margin-top: 10vh;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 40px;
+}
+@media (max-width:700px) {
+   .blog{
+      text-align: center;
+      width: 218vh;
+   }
+   .item{
+      gap: 90px;
+   }
+   button{
+      font-size: 40px;
+   }
+   .bloglist{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-column-gap: 200vh;
+      gap: 95px;
+   }
+}

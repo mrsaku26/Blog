@@ -1,0 +1,62 @@
+.blg{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 300px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px 1px rgb(226, 222, 222);
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+}
+.blg img{
+   width: 300px;
+   height: 150px;
+}
+.blog span{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin: 15px 20px;
+   background-color:rgb(186, 191, 217);
+   color: rgb(70, 70, 213);
+   font-weight: 520;
+   width: 120px;
+   border-radius: 20px;
+   font-size: 13px;
+}
+.blg-tops h5{
+   margin-top: -1px;
+   margin-top: 5px;
+   margin: 0px 20px;
+   font-size: 15px;
+}
+.blg-tops p{
+   font-size: 14px;
+   margin: 10px 20px;
+}
+.blg:hover{
+   transform: scale(1.07);
+}
+@media (max-width:700px) {
+   .blg{
+      height: 750px;
+      width: 650px;
+      margin-top: 15vh;
+   }
+   .blg img{
+      width: 650px;
+      height: 400px;
+   }
+   .blg span{
+      margin-top: 5vh;
+      font-size: 35px;
+      width: 300px;
+   }
+   .blg-tops h5{
+      font-size: 50px;
+   }
+   .blg-tops p{
+      font-size: 35px;
+   }
+}

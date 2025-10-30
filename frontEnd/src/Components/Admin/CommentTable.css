@@ -1,0 +1,38 @@
+.cmnts-image{
+   width: 10%;
+   cursor: pointer;
+}
+.im{
+   margin-right: 2vh;
+}
+.cmnt-title{
+   color: black;
+
+}
+.cmnts-bod{
+   font-size: 15px;
+}
+.span{
+   font-size: 15px;
+   font-weight: 600;
+   color: rgb(87, 81, 81);
+}
+.cmnt-titl{
+   margin-bottom: 40px;
+}
+.cmnt-cmnt{
+   margin-top: -1vh;
+}
+.approvenot{
+   display: flex;
+   align-items: center;
+   gap: 1vh;
+}
+@media (max-width:700px) {
+   .approv{
+      font-size: 15px;
+   }
+   .cmnts-image{
+      width: 5vh;
+   }
+}
