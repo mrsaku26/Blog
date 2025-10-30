@@ -70,7 +70,7 @@ const Blog = () => {
         <p  className='date'>Published on {Moment(data.createdAt).format('Do MMMM YYYY')}</p>
         <h1 className='blogs-title'>{data.title}</h1>
         <p className='subtitle'>{data.subTitle}</p>
-        <p className='author'>Mr Name</p>
+        <p className='author'>Mr Saku</p>
       </div>
       <div className='blogs-lowers'>
         <img src={data.image} alt="" className='blogs-image'/>

@@ -10,7 +10,7 @@
 }
 .blg img{
    width: 300px;
-   height: 150px;
+   height: 120px;
 }
 .blog span{
    display: flex;
@@ -46,7 +46,7 @@
    }
    .blg img{
       width: 650px;
-      height: 400px;
+      height: 300px;
    }
    .blg span{
       margin-top: 5vh;
