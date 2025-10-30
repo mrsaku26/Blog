@@ -33,8 +33,8 @@
 .blogs-image{
    margin-top: 5vh;
    border-radius: 20px;
-   height: 100vh;
-   width: 100vh;
+   height: 70vh;
+   width: 130vh;
 }
 .rich-text{
    display: flex;
@@ -146,7 +146,7 @@
    }
    .blogs-image{
       width: 150vh;
-      height: 150vh;
+      height: 100vh;
    }
    .rich-text{
       font-size: 35px;
