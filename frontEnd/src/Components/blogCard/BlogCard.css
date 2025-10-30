@@ -10,7 +10,7 @@
 }
 .blg img{
    width: 300px;
-   height: 120px;
+   height: 1200px;
 }
 .blog span{
    display: flex;
@@ -40,7 +40,7 @@
 }
 @media (max-width:700px) {
    .blg{
-      height: 750px;
+      height: 7500px;
       width: 650px;
       margin-top: 15vh;
    }
